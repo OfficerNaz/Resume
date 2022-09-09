@@ -1,0 +1,487 @@
+/*Selecting every element and adjusting their margin, padding and font */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+/*PAGE TITLES!!!!*/
+/*The settings for the titles of each page*/
+.title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+/*BACKGROUND IMAGE!!!!*/
+/*The settings for the background image of every pages*/
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pictures/4.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*BOTTONS ON TOP OF PAGE!!*/
+/*Setting the Home, Resume, Courses, Contact and College buttons on the top
+right of each page*/
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+
+/*Making the buttons on the top left side of the page incased in a box*/
+ul li{
+    display: inline-block;
+}
+
+/*Making the button surroundings transperent and changes the text to 
+white */
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+/*Changing the button backgrounds and text color by hovering over it*/
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Making the home button parameters absolute*/
+ul li.Home a{
+    background-color: white;
+    color: black;
+}
+
+/*Spacing out the buttons*/
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* PAGE 1!!!! */
+/*MY PICTURE!! */
+/*Setting up the size, location and boarder of the image*/
+.Me img{
+    position:absolute;
+    top: 42%;
+    left: 45%;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    border: 5px solid black;
+}
+
+/*First Page title margins*/
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+
+/*The "by Naz" text color*/
+.title h2{
+    color: white;
+}
+
+/*Margins of the brief Description*/
+.intro{
+    position:relative;
+    top: 35%;
+    left: 22%;
+    color: white;
+    text-align: center;
+}
+
+/*The "settings" for the hoby section of my home page*/
+.hoby{
+    position:relative;
+    top: 40%;
+    left: 22%;
+    color: white;
+
+}
+
+/*Title of by hoby portion*/
+.hoby h2{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/*The style of the list ends and making the list items bold */
+ol{
+    list-style-type:circle;
+    font-weight: bold;
+}
+
+/*Settings for the activites section of my home page*/
+.activities{
+    position:relative;
+    top: 40%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*The title settings for the activities portion*/
+.activities h2{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/*The margins of the text in my activities portion*/
+.activities h4{
+margin-left: 0%;
+margin-right: 50%;
+}
+
+/*Settings for the college portion of my page */
+.collegeinfo{
+    position:relative;
+    top: 40%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*The title for the college info section */
+.collegeinfo h2{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/*Settings for the text portion of my college section*/
+.collegeinfo h4{
+margin-left: 0%;
+margin-right: 50%;
+}
+
+/*Margins for the body of my pages*/
+/*HOME PAFE END!!!!*/
+
+body{
+
+    width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+}
+
+
+/*RESUME PAGE!!!!!*/
+/*Margins for the items within my name class "Full name and address*/
+.Name{
+    position:relative;
+    top: 18%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*Margins for my name on the resume page*/
+.Name h1{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/*Margins for my pro summary portion*/
+.ProSum{
+    position:relative;
+    top: 18%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*Margin for my pro summary title*/
+.ProSum h1{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/*Margins for my pro summary sub-text*/
+.ProSum h4{
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
+/*Margins for my education class*/
+.Education{
+    position:relative;
+    top: 18%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*Margins for my education title*/
+.Education h1{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/*Margins for my first schooling title*/
+.comp{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Margins for my first schooling info*/
+h4.comp{
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
+/*Margins for my second schooling title*/
+.online{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Margins for my second schooling info*/
+h4.online{
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
+/*Margins for my third schooling title*/
+.admin{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/*Margins for my fourth schooling title*/
+.hs{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Margins for my skills class*/
+.skills{
+    position:relative;
+    top: 18%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*Margins for my skills title*/
+h1.skills1{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+/*Margins for my skills description*/
+h4.skills1{
+    margin-bottom: 10px;
+}
+
+/*Margins for the listed items under skills*/
+ol.skills1{
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    margin-right: 50%;
+}
+
+/*Margins for my experience portion*/
+.Experience{
+    position:relative;
+    top: 18%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*Margins of my experience class*/
+.ex1{
+    margin-bottom: 10px;
+}
+
+/*Margins for the title of my experience portion*/
+h1.ex1{
+    text-decoration: underline; 
+}
+
+/*Margins for the goals class*/
+.goals{
+    position:relative;
+    top: 18%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 50%;
+}
+
+/*Margins for my goals title*/
+h1.goals1{
+    margin-bottom: 10px;
+    text-decoration: underline; 
+}
+/*END OF MY RESUME PAGE!!!!!*/
+
+
+/*COURSES PAGE!!!!!*/
+/*Margins for my Course class*/
+.list{
+    position:relative;
+    top: 18%;
+    left: 22%;
+    color: white;
+    margin-top: 30px;
+    font-size: 65px;
+}
+/* This portion of code connects to the course page*/
+/*The code below takes care of the the search bar*/
+.search-box{
+    position:absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding:10px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: white;
+}
+
+.search-btn{
+    color:cadetblue;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition:0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+/*End of button configurations*/
+
+/*Margins for the courses in my courses page*/
+.courses1{
+    position:relative;
+    top: 22%;
+    left: 20%;
+    color: white;
+    margin-top: 30px;
+}
+
+.courses2{
+    position:relative;
+    top: 22%;
+    left: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.courses3{
+    position:relative;
+    top: 22%;
+    left: 15%;
+    color: white;
+    margin-top: 30px;
+}
+
+.courses4{
+    position:relative;
+    top: 22%;
+    left: 13%;
+    color: white;
+    margin-top: 30px;
+}
+
+/*positioning of the list items*/
+.list{
+    left: 19%;
+}
+
+.course1{
+    margin-top: 40px;
+}
+
+ol.courselist{
+    font-size: 30px;
+}
+
+/*Dropdown Button*/
+.droptbn{
+    background-color: #2f3640;
+    color: cadetblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    transition: 0.6s
+}
+
+/*The container <div> -needed to position the dropdown content */
+.dropdown{
+    position: relative;
+    display: inline-block;
+    left: 65%;
+    top: -42%;
+}
+
+/*Dropdown content (Hidden by Default) */
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color:#2f3640; ;
+    min-width: 137px;
+    box-shadow: 0px 8px 16 px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/*links inside the dropdown */
+.dropdown-content a {
+    color: cadetblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+/*Change color of the dropdown links on Hover */ 
+.dropdown-content a:hover {background-color: white; color:black;}
+
+/*show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display:block;}
+
+/*Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .droptbn {background-color: white; color:#2f3640;}

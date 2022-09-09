@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website resume </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/d59fadba13.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li class="Home"><a href="Home Page.html">Home</a></li>
+                <li><a href="Resume.html"class="btn">Resume</a>
+                <li><a href="Courses.html"class="btn">Courses</a>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="school"><a href="https://www.algonquincollege.com/">College</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>My Courses</h1>
+        </div>
+        <div class="search-box">
+            <input id="search" class="search-txt" type="text" value= "" name="searchBar" placeholder="Type to search" onchange ="openPage()">
+            <a class="search-btn" href="#">
+                <script src="/Courses.js"></script>
+        <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div class="courses1">
+            <h1 class="list">Course List</h1>
+            <ol id= "courselist" class="courselist">
+                <li class="course">Communications <p>|Level 1|</p> <p>ENL1813T_022</p>
+                <img id="commpic" src="pictures/communications.jpg" 
+                    alt="compic" width="220" height="120"></li>
+                <li class="course">Web Programming<p>|Level 2|</p> <p>CST8285_303_300</p> 
+                    <img src="pictures/web-programming.jpg" 
+                    alt="webpic" width="220" height="120"></li>
+                <li class="course">Object Oriented Programming<p>|Level 2|</p> <p>CST8284_303_300</p>
+                    <img src="pictures/java.jpg" 
+                    alt="javpic" width="220" height="120"></li>
+                <li class="course">Operating Systems Fundemental<p>|Level 2|</p> <p>CST8102_310</p>
+                    <img src="pictures/linux.jpg" 
+                    alt="linpic" width="220" height="120"></li>
+            </ol>
+        </div>
+        <div class="dropdown">
+            <button class="droptbn">Filter By Level</button>
+            <div class="dropdown-content">
+            <a href="#">Level 1</a>
+            <a href="#">Level 2</a>
+        </div>
+        </div>
+        <div class="dropdown">
+            <button class="droptbn">Filter: Hi to Lo</button>
+            <div class="dropdown-content">
+            <a href="#">Highest</a>
+            <a href="#">Lowest</a>
+        </div>
+    </div>
+    </header>
+    
+</body>
+<html>
